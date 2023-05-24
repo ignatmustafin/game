@@ -4,6 +4,7 @@
 /[Oo]bj/
 /[Bb]uild/
 /Assets/AssetStoreTools*
+/Logs
 
 # Visual Studio / MonoDevelop generated
 ExportedObj/
@@ -29,3 +30,4 @@ build/
 # Mac
 .DS_Store
 *.DS_Store
+/.idea/

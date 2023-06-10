@@ -1,10 +1,14 @@
 namespace Services
 {
-    public class Constant
+    public static class Constant
     {
-        public string GetFullUrl(string path)
+        public static string SignInUrl { get; } = GetFullUrl("auth/signIn");
+        public static string SignUpUrl { get; } = GetFullUrl("auth/signUp");
+        
+        private static string GetFullUrl(string path)
         {
-            return $"http://localhost:5157{path}";
+            return $"http://localhost:5157/{path}";
         }
+       
     }
 }

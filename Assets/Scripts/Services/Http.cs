@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Models;
 using UnityEngine;
@@ -7,56 +8,33 @@ using UnityEngine.Networking;
 
 namespace Services
 {
-    public class Http
+    public static class Http
     {
-        private readonly Constant _constants = new Constant();
-
-
-        public async Task<string> Get(string path)
+        public static IEnumerator Post(string uri, Action<string>  onSuccessAction, Dictionary<string, string> formData)
         {
-            UnityWebRequest req = new UnityWebRequest(_constants.GetFullUrl(path), "GET");
-            req.downloadHandler = (DownloadHandler) new DownloadHandlerBuffer();
-            req.SendWebRequest();
+            var webRequest = UnityWebRequest.Post(uri , formData);
 
-            while (!req.isDone)
+            yield return webRequest.SendWebRequest();
+
+            switch (webRequest.result)
             {
-                await Task.Yield();
+                case UnityWebRequest.Result.InProgress:
+                    Debug.Log("Pending...");
+                    break;
+                case UnityWebRequest.Result.ConnectionError:
+                case UnityWebRequest.Result.DataProcessingError:
+                    Debug.LogError("Error: " + webRequest.error);
+                    break;
+                case UnityWebRequest.Result.ProtocolError:
+                    Debug.LogError("HTTP Error: " + webRequest.error);
+                    break;
+                case UnityWebRequest.Result.Success:
+                    onSuccessAction(webRequest.downloadHandler.text);
+                    break;
+
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
-
-            
-            if (req.result != UnityWebRequest.Result.Success)
-            {
-                throw new Exception("Error while sending request: " + req.error);
-            }
-
-            Debug.Log($"RESPONSE {req.downloadHandler}");
-            string response = req.downloadHandler.text;
-            return response;
-        }
-        
-        public async Task<string> Post(string path, object data)
-        {
-            UnityWebRequest req = new UnityWebRequest(_constants.GetFullUrl(path), "POST");
-            string json = JsonUtility.ToJson(data);
-            byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(json);
-            req.uploadHandler = (UploadHandler) new UploadHandlerRaw(jsonToSend);
-            req.downloadHandler = (DownloadHandler) new DownloadHandlerBuffer();
-            req.SetRequestHeader("Content-Type", "application/json");
-            req.SendWebRequest();
-
-            while (!req.isDone)
-            {
-                await Task.Yield();
-            }
-
-            
-            if (req.result != UnityWebRequest.Result.Success)
-            {
-                throw new Exception("Error while sending request: " + req.error);
-            }
-
-            string response = req.downloadHandler.text;
-            return response;
         }
     }
 }

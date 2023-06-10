@@ -1,157 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5756ffc1-6fe2-4b1c-bb90-d426920d3e68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.game/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.game/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.game/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.game/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.game/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NuGet.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NuGet.config.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EmitterSharp.1.1.1.1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EmitterSharp.1.1.1.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EmitterSharp.1.1.1.1/EmitterSharp.1.1.1.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EmitterSharp.1.1.1.1/EmitterSharp.1.1.1.1.nupkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EmitterSharp.1.1.1.1/lib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EmitterSharp.1.1.1.1/lib/netstandard2.0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EmitterSharp.1.1.1.1/lib/netstandard2.0/EmitterSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EmitterSharp.1.1.1.1/lib/netstandard2.0/EmitterSharp.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/EngineIOSharp.1.0.5.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/EngineIOSharp.1.0.5.nupkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/lib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/lib/netstandard2.0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/lib/netstandard2.0/EngineIOSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/EngineIOSharp.1.0.5/lib/netstandard2.0/EngineIOSharp.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/Newtonsoft.Json.9.0.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/Newtonsoft.Json.9.0.1.nupkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/lib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/lib/netstandard1.0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SimpleThreadMonitor.1.0.2.1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SimpleThreadMonitor.1.0.2.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SimpleThreadMonitor.1.0.2.1/SimpleThreadMonitor.1.0.2.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SimpleThreadMonitor.1.0.2.1/SimpleThreadMonitor.1.0.2.1.nupkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SimpleThreadMonitor.1.0.2.1/lib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SimpleThreadMonitor.1.0.2.1/lib/netstandard2.0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SimpleThreadMonitor.1.0.2.1/lib/netstandard2.0/SimpleThreadMonitor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SimpleThreadMonitor.1.0.2.1/lib/netstandard2.0/SimpleThreadMonitor.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/SocketIOSharp.2.0.3.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/SocketIOSharp.2.0.3.nupkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/lib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/lib/netstandard2.0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/lib/netstandard2.0/SocketIOSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/SocketIOSharp.2.0.3/lib/netstandard2.0/SocketIOSharp.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3.nupkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/lib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/lib/netstandard2.0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/lib/netstandard2.0/WebSocketSharp.CustomHeaders.CustomHttpServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/lib/netstandard2.0/WebSocketSharp.CustomHeaders.CustomHttpServer.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/lib/netstandard2.0/WebSocketSharp.CustomHeaders.CustomHttpServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Packages/WebSocketSharp.CustomHeaders.CustomHttpServer.1.0.2.3/lib/netstandard2.0/WebSocketSharp.CustomHeaders.CustomHttpServer.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestServer.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestServer.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/EndTurn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/EndTurn.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/CreateLobby.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/CreateLobby.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/JoinLobby.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/JoinLobby.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Lobby.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Lobby.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Constant.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Constant.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Http.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Http.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Scene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Scene.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/SocketConnection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/SocketConnection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TestServerScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TestServerScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/packages.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/packages.config.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/Newtonsoft.Json.9.0.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/net20/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/net35/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/net40/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.9.0.1/tools/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/SimpleThreadMonitor.1.0.2.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/net40/SimpleThreadMonitor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/net40/SimpleThreadMonitor.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/net45/SimpleThreadMonitor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/net45/SimpleThreadMonitor.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/netcoreapp2.0/SimpleThreadMonitor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/netcoreapp2.0/SimpleThreadMonitor.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/netcoreapp3.0/SimpleThreadMonitor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/netcoreapp3.0/SimpleThreadMonitor.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/netstandard2.0/SimpleThreadMonitor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/lib/netstandard2.0/SimpleThreadMonitor.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/src/SimpleThreadMonitor/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/SimpleThreadMonitor.1.0.2.1/src/SimpleThreadMonitor/SimpleMutex.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CardMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CardMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CardPrefab/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CardPrefab/Card.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/CreateLobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/CreateLobby.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/JoinLobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/JoinLobby.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/Constant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Constant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/Http.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Http.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b25a738344145fd98ec6dc5e0ff34f3159c00/52/31cb30e8/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d808d3d59545410fad147c1ed0ca19cc7600/8d/ab2035f5/SocketIOConnection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/e6e6a983d0994124aa19e24ff6d78a143d400/01/818f94a7/UnityEngine.UI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CardPrefab/Card.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Login/LoginPage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Register/RegisterPage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.6.6/Tests/Runtime/Shared/084-Hint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Tests/Properties/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/bool2.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/bool4.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/bool4x2.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/bool4x4.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/double2x2.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/double2x4.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/double3x2.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float2x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QF91LXAYOluc0YHW7HD2KS9gSE" />
   <component name="ProjectReloadState">
@@ -161,16 +67,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/alexander/.config/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
+      &quot;/home/alexander/.config/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
+      &quot;/home/alexander/.local/share/Symbols/src&quot;
+    ]
+  }
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/2021.3.21f1/Editor/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/2021.3.21f1/Editor/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -202,6 +135,21 @@
       <updated>1684938245409</updated>
       <workItem from="1684938248469" duration="164000" />
       <workItem from="1684938445917" duration="404000" />
+      <workItem from="1685557509528" duration="76000" />
+      <workItem from="1685558373404" duration="639000" />
+      <workItem from="1685730161330" duration="3634000" />
+      <workItem from="1685734017068" duration="691000" />
+      <workItem from="1685734772797" duration="1128000" />
+      <workItem from="1685770681412" duration="3493000" />
+      <workItem from="1685820569047" duration="1538000" />
+      <workItem from="1686338152661" duration="112000" />
+      <workItem from="1686338560239" duration="1027000" />
+      <workItem from="1686340533075" duration="633000" />
+      <workItem from="1686343347042" duration="29000" />
+      <workItem from="1686343393456" duration="1566000" />
+      <workItem from="1686345092196" duration="249000" />
+      <workItem from="1686346230743" duration="1306000" />
+      <workItem from="1686393123676" duration="1161000" />
     </task>
     <task id="LOCAL-00001" summary="#0 idea">
       <created>1684938313902</created>
@@ -224,7 +172,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="auth" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

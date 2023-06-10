@@ -47,7 +47,7 @@ public class Card : MonoBehaviour
         {
             if (hitInfo.collider.CompareTag("DropZone"))
             {
-                CardMover.MoveToPlyerField(gameObject, hitInfo.collider.gameObject);
+                CardMover.MoveToPlayerField(gameObject, hitInfo.collider.gameObject);
             }
             else
             {

@@ -13,38 +13,38 @@ namespace Menu
 {
     public class CreateLobby : MonoBehaviour
     {
-        [SerializeField] private GameObject createLobbyButton;
-        private readonly Http _http = new Http();
-
-        private string joinLobbyUrl = "http://localhost:5157/lobby/join-lobby";
-        private string sceneLoadedUrl = "http://localhost:5157/lobby/scene-loaded";
-        private string endTurnUrl = "http://localhost:5157/lobby/end-turn";
-
-        public async void OnCreateLobbyButtonClicked()
-        {
-            string response = await _http.Get("/lobby/create-lobby");
-            Lobby responseData = JsonUtility.FromJson<Lobby>(response);
-            
-            SetLobbyGuidToGameObject(responseData.Id);
-            SocketConnection.Instance.AddEventListener("all_users_joined_lobby",
-                (data) =>
-                {
-                    Debug.Log("Lobby completed event");
-
-                    void SwitchSceneAction()
-                    {
-                        Scene.Instance.LoadScene(Scene.SceneName.MainScene);
-                    }
-
-                    SocketConnection.Instance.CompleteTaskInMainStream(SwitchSceneAction);
-                });
-        }
-
-        private void SetLobbyGuidToGameObject(string lobbyId)
-        {
-            GameObject lobbyIdInputField = GameObject.Find("lobbyIdInputField");
-            lobbyIdInputField.GetComponent<TMP_InputField>().text = lobbyId;
-        }
+        // [SerializeField] private GameObject createLobbyButton;
+        // private readonly Http _http = new Http();
+        //
+        // private string joinLobbyUrl = "http://localhost:5157/lobby/join-lobby";
+        // private string sceneLoadedUrl = "http://localhost:5157/lobby/scene-loaded";
+        // private string endTurnUrl = "http://localhost:5157/lobby/end-turn";
+        //
+        // public async void OnCreateLobbyButtonClicked()
+        // {
+        //     string response = await _http.Get("/lobby/create-lobby");
+        //     Lobby responseData = JsonUtility.FromJson<Lobby>(response);
+        //     
+        //     SetLobbyGuidToGameObject(responseData.Id);
+        //     SocketConnection.Instance.AddEventListener("all_users_joined_lobby",
+        //         (data) =>
+        //         {
+        //             Debug.Log("Lobby completed event");
+        //
+        //             void SwitchSceneAction()
+        //             {
+        //                 Scene.Instance.LoadScene(Scene.SceneName.MainScene);
+        //             }
+        //
+        //             SocketConnection.Instance.CompleteTaskInMainStream(SwitchSceneAction);
+        //         });
+        // }
+        //
+        // private void SetLobbyGuidToGameObject(string lobbyId)
+        // {
+        //     GameObject lobbyIdInputField = GameObject.Find("lobbyIdInputField");
+        //     lobbyIdInputField.GetComponent<TMP_InputField>().text = lobbyId;
+        // }
         
         
         //

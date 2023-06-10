@@ -3,30 +3,30 @@ using UnityEngine;
 
 public class CardMover
 {
-    static void MoveTo(GameObject obj, GameObject to){
+    private static void MoveTo(GameObject obj, GameObject to){
         if (to == null){
             Debug.LogError(to.name + " is not assigned.");
             return;
         }
 
-        Vector3 toPosition = to.transform.position;
+        var toPosition = to.transform.position;
         toPosition.z = -0.1f;
         obj.transform.position = toPosition;
     }
 
-    static void ScaleTo(GameObject obj, GameObject to, string axes = "xyz" ){
-        Renderer toRenderer = to.GetComponent<Renderer>();
-        Renderer objRenderer = obj.GetComponent<Renderer>();
-
+    private static void ScaleTo(GameObject obj, GameObject to, string axes = "xyz" ){
+        var toRenderer = to.GetComponent<Renderer>();
+        var objRenderer = obj.GetComponent<Renderer>();
+        
         if (toRenderer == null || objRenderer == null){
             Debug.LogError(to.name + " is not assigned.");
             return;
         };
 
-        Bounds toBounds = toRenderer.bounds;
-        Bounds objBounds = objRenderer.bounds;
+        var toBounds = toRenderer.bounds;
+        var objBounds = objRenderer.bounds;
 
-        Vector3 objScale = obj.transform.localScale;
+        var objScale = obj.transform.localScale;
 
         if (axes.Contains("x"))
         {
@@ -47,17 +47,17 @@ public class CardMover
 
     }
 
-    static public void  MoveToPlayerDeck(GameObject obj){
+    public static  void  MoveToPlayerDeck(GameObject obj){
         MoveTo(obj, GOStore.Instance.playerDeck);
         ScaleTo(obj, GOStore.Instance.playerDeck);
     }
 
-    static public void  MoveToEnemyDeck(GameObject obj){
+    public static void  MoveToEnemyDeck(GameObject obj){
         MoveTo(obj, GOStore.Instance.enemyDeck);
         ScaleTo(obj, GOStore.Instance.enemyDeck);
     }
 
-    static public void  MoveToPlayerHand(GameObject obj){
+    public static void  MoveToPlayerHand(GameObject obj){
         // Vector3 objPosition = obj.transform.position;
         // float gap = 1.10f;
 
@@ -73,27 +73,27 @@ public class CardMover
         obj.transform.rotation = Quaternion.identity;
     }
 
-    static public void MoveToPlyerField(GameObject obj, GameObject field)
+    public static void MoveToPlayerField(GameObject obj, GameObject field)
     {
         MoveTo(obj, field);
         ScaleTo(obj, field);
         obj.transform.rotation = Quaternion.identity;
     }
 
-    static public void  FlipFrontDown(GameObject obj){
-        Quaternion objRotation = obj.transform.rotation;
+    public static void  FlipFrontDown(GameObject obj){
+        var objRotation = obj.transform.rotation;
         objRotation.y = 180;
         obj.transform.rotation  = objRotation;
     }
     
-    static public void  FlipFrontUp(GameObject obj){  
-        Quaternion objRotation = obj.transform.rotation;
+    public static void  FlipFrontUp(GameObject obj){  
+        var objRotation = obj.transform.rotation;
         objRotation.y = 0;
         obj.transform.rotation  = objRotation;
     }
     
-    static public void MoveOutFromBoard(GameObject obj){
-        Vector3 objPosition = obj.transform.position;
+    public static void MoveOutFromBoard(GameObject obj){
+        var objPosition = obj.transform.position;
         objPosition.z = -10;
         obj.transform.position = objPosition;
     }

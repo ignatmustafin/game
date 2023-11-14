@@ -1,0 +1,41 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]nityGenerated/
+/[Uu]nityPackageManager/
+
+# VS/MD user-specific files
+/[Uu]ser[Ss]ettings/
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea
+ehthumbs.db
+Thumbs.db
+
+# Unity3D project settings
+ProjectSettings/AssetImportSettings.asset
+ProjectSettings/AudioManager.asset
+ProjectSettings/CameraRigSettings.asset
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/InputManager.asset
+ProjectSettings/Physics2DSettings.asset
+ProjectSettings/PhysicsManager.asset
+ProjectSettings/QualitySettings.asset
+ProjectSettings/TagManager.asset
+ProjectSettings/TimeManager.asset
+ProjectSettings/UnityConnectSettings.asset
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/EditorSettings.asset
+ProjectSettings/EditorUserBuildSettings.asset
+ProjectSettings/EditorUserSettings.asset
+ProjectSettings/ScriptMapper.asset
